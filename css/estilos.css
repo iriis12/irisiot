@@ -13,13 +13,20 @@ body {
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: #f0f0f0;
+  /*background: #f0f0f0;*/
+  background-image: url("../img/iot.png");
+  background-size:1000px;
   
 }
 
-h1{
+h1,a{
 color: rgb(128, 79, 119);
+margin: auto;
 }
+div{
+  margin: auto;
+}
+
 
 .contenido {
   display: inline-block;
